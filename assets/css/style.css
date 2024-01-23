@@ -670,8 +670,9 @@ section {
 --------------------------------------------------------------*/
 .services{
   /* make gradient background color light grey */
-  background-color: #4c4d4c;
-
+  /* background-color: #4c4d4c; */
+  background-image: linear-gradient(315deg, #4c4d4c 0%, #000000 74%);
+  margin-bottom: 50px;
 }
 
 .services .section-title p {
