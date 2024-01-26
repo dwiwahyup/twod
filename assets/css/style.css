@@ -688,7 +688,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
-  padding: 10px;
+  /* padding: 10px; */
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -1270,6 +1270,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact .info-box {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  transition: ease-in-out 0.3s;
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1473,6 +1481,11 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info img {
+  max-width: 15vw;
+  margin-top: 1vw;
 }
 
 #footer .footer-top .footer-info h3 {
